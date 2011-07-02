@@ -1,0 +1,134 @@
+body {
+	margin: 37px 15px 20px 0px;
+	padding: 0;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: left;
+	}
+
+#page {
+/*	background-color: white; */
+	margin: 20px auto; 
+	padding: 0;
+	width:  1000px;
+/*	border: 1px solid #959596; */
+	}
+	
+a  {
+	text-decoration: none;
+	color: black;
+	}
+
+#logo {
+	margin: 0 0 6px 11px;
+	}
+
+a:link {color: black;}     /* unvisited link */
+a:visited {color: black;}  /* visited link */
+a:hover {color: #a9a9a9;}   /* mouse over link */
+a:active {color: black;}   /* selected link */
+	
+a img {
+	border:none;
+	}
+
+table.main {}
+
+table.main th {
+	padding-left: 8px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 314px;
+}
+
+table.main tr {
+	margin: 0 200px;
+}
+
+
+#entry_date {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 4px;
+	width: 314px;
+	height: 17px;
+	background-color: black;
+}
+
+#entry {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0;
+	width: 314px;
+	height: 67px;
+	background-color: #fff5d1;
+}
+
+table.main h1 {
+	margin: 2px 0 0 11px;
+	font-family: Arial;
+	font-size: 10px;
+	color: #ffffff;
+	}
+
+table.main h2 {
+	padding: 6px 0 0 0;
+	margin: 0px 5px 0 10px;
+	font-color: black;
+	font-family: Arial;
+	font-size: 14px;
+	}
+
+table.main p {
+	margin: 0 5px 0 10px;
+	font-color: black;
+	font-family: Arial;
+	font-size: 11px;
+	}
+
+.fit{}
+#fitpanel {
+	position:absolute;
+	height: 87px;
+	width: 0px;
+	overflow: hidden;
+	top: 473px;
+	}
+.product{}
+#productpanel {
+	position:absolute;
+	height: 87px;
+	width: 0px;
+	overflow: hidden;
+	top: 473px;
+	}
+.team{}
+#teampanel {
+	position:absolute;
+	height: 87px;
+	width: 0px;
+	overflow: hidden;
+	top: 473px;
+	}
+
+#welcome {
+	margin: 50px 0 0 332px;
+}
+
+#contact {
+	float: right;
+	margin: -68px 0 -15px 325px;
+}
+
+#cmango {
+	float: right;
+	margin: 5px 35px 0 0;
+}
+
+#invite {
+	text-align: center;
+	}
+
+
+
