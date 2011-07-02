@@ -1,22 +1,34 @@
 body {
 	margin: 37px 15px 20px 0px;
 	padding: 0;
-	font-family: Arial;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	text-align: left;
-	}
+}
+
+strong, em {
+  font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: normal;
+  color: red;
+  font-size: 150%;
+}
+  
+em {font-style: italic;}
 
 #page {
 /*	background-color: white; */
 	margin: 20px auto; 
 	padding: 0;
-	width:  1000px;
+	width:  960px;
 /*	border: 1px solid #959596; */
 	}
 	
 a  {
 	text-decoration: none;
-	color: black;
+/*  color: black;*/
 	}
 
 #logo {
@@ -30,7 +42,7 @@ a:active {color: black;}   /* selected link */
 	
 a img {
 	border:none;
-	}
+}
 
 table.main {}
 
@@ -44,7 +56,6 @@ table.main th {
 table.main tr {
 	margin: 0 200px;
 }
-
 
 #entry_date {
 	padding-left: 0px;
@@ -67,23 +78,20 @@ table.main tr {
 
 table.main h1 {
 	margin: 2px 0 0 11px;
-	font-family: Arial;
 	font-size: 10px;
-	color: #ffffff;
+/*  color: #ffffff;*/
 	}
 
 table.main h2 {
 	padding: 6px 0 0 0;
 	margin: 0px 5px 0 10px;
-	font-color: black;
-	font-family: Arial;
+/*  font-color: black;*/
 	font-size: 14px;
 	}
 
 table.main p {
 	margin: 0 5px 0 10px;
-	font-color: black;
-	font-family: Arial;
+/*  font-color: black;*/
 	font-size: 11px;
 	}
 
@@ -117,8 +125,10 @@ table.main p {
 }
 
 #contact {
-	float: right;
-	margin: -68px 0 -15px 325px;
+  float: right;
+  font-size: 12px;
+  line-height: 0em;
+  margin: -52px 0 0 0;
 }
 
 #cmango {
@@ -127,8 +137,32 @@ table.main p {
 }
 
 #invite {
-	text-align: center;
-	}
+/*  text-align: center;*/
+  font-size: 20px;
+	text-align: left;
+	vertical-align: top;
+}
 
+#invite p {
+  padding-top: 10px;
+}
 
+#invite img {
+  border: none;
+}
 
+#invite table {
+  text-align:center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#invite td {
+  width:400px;
+}
+
+#invite td#right {
+  line-height: 2em;  
+  text-align:left;
+}
