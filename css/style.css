@@ -478,3 +478,14 @@ span.footer {
   font-size: 120%;
   color: #fff5d1;
 }
+
+ul {
+  list-style-type: circle;
+  padding-left: 22px;
+  margin-left: 0;
+/*	font-weight: bold;*/
+}
+
+li {
+  padding-top: 5px;
+}
