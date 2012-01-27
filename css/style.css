@@ -438,10 +438,14 @@ h2 {
 }
 
 #main {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 14px;
 	text-align: left;
 	vertical-align: top;
+}
+
+#main #twitter {
+  margin-bottom: 10px;
 }
 
 #main #text {
@@ -453,6 +457,12 @@ h2 {
   border-top-style: dotted;
   border-width: 1px;
 }
+
+#footer img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 span.footer {
   font-size: 10px;
