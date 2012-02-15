@@ -490,7 +490,7 @@ span.footer {
 }
 
 ul {
-  list-style-type: circle;
+   list-style-type: none;
   padding-left: 0px;
   margin-left: 0;
 /*	font-weight: bold;*/
@@ -500,6 +500,6 @@ li {
   padding-top: 5px;
 }
 
-#posts ul {
-  list-style-type: none;
-}
+/*#posts ul {
+ 
+}*/
