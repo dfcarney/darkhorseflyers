@@ -491,11 +491,15 @@ span.footer {
 
 ul {
   list-style-type: circle;
-  padding-left: 22px;
+  padding-left: 0px;
   margin-left: 0;
 /*	font-weight: bold;*/
 }
 
 li {
   padding-top: 5px;
+}
+
+#posts ul {
+  list-style-type: none;
 }

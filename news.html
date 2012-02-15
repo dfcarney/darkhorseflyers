@@ -2,9 +2,18 @@
 layout: default
 title: News
 ---
+  
+<div id="posts" class="grid_9">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+<!-- <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a> -->
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <h2>{{ post.title }}</h2>
 
-<div id="news" class="grid_12">
-  <h2>News</h2>
-  <p>Coming soon</p>
+      {{ post.content }}
+    </li>
+    {% endfor %}
+  </ul>
+  
 </div>
     
