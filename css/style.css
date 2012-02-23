@@ -385,7 +385,7 @@ strong, em {
 
 strong {
   font-weight: normal;
-  color: red;
+  color: #e80033;
   font-size: 100%;
 }
   
@@ -401,9 +401,9 @@ em {
 /*a {
   text-decoration: none;
 }*/
-a:link {text-decoration: none; color: red;}
-a:visited {text-decoration: none; color: red;}
-a:active {text-decoration: none; color: red;}
+a:link {text-decoration: none; color: #e80033;}
+a:visited {text-decoration: none; color: #e80033;}
+a:active {text-decoration: none; color: #e80033;}
 a:hover {text-decoration: underline; color: #a9a9a9;}
 
 #logo {
@@ -453,18 +453,18 @@ h2 {
   text-align: left;
 }
 
-#footer {
+#flyers_footer {
   border-top-style: dotted;
   border-width: 1px;
 }
 
-#footer img {
+#flyers_footer img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 
-span.footer {
+span.flyers_footer {
   font-size: 10px;
   color: black;
   text-align: left;
@@ -498,6 +498,11 @@ ul {
 
 li {
   padding-top: 5px;
+}
+
+iframe {
+  border-width: 0px;
+  margin: 0px;
 }
 
 /*#posts ul {

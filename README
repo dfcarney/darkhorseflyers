@@ -1,0 +1,23 @@
+Added the following to the Tumblr page:
+
+  <body class="{block:IfDarkColourScheme}dark{/block:IfDarkColourScheme}"  onload="iframeResizePipe()">
+  
+  <!-- Added by dfcarney, along witht the iframeResizePipe() call above -->
+<iframe id="helpframe" src='' height='0' width='0' frameborder='0'></iframe>
+<script type="text/javascript">
+  function iframeResizePipe()
+  {
+     // What's the page height?
+     //var height = document.body.scrollHeight;
+     var height = $(document.body).height();
+
+     // Going to 'pipe' the data to the parent through the helpframe..
+     var pipe = document.getElementById('helpframe');
+
+     // Cachebuster a precaution here to stop browser caching interfering
+     pipe.src = 'http://localhost:4000/helper.html?height='+height+'&cacheb='+Math.random();
+
+  }
+</script>  
+<!-- END added by dfcarney -->
+
