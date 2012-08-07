@@ -490,14 +490,24 @@ span.flyers_footer {
 }
 
 ul {
-   list-style-type: none;
+  list-style-type: decimal;
+  /*list-style-type: circle; */
   padding-left: 0px;
-  margin-left: 0;
+  margin-left: 22px;
 /*	font-weight: bold;*/
+}
+
+ul.pricing {
+  list-style-type: none;
+  margin-left: 0px;
 }
 
 li {
   padding-top: 5px;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 iframe {
